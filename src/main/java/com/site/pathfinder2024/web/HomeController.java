@@ -8,6 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Random;
 
+/**
+ *  DOc
+ */
 @Controller
 public class HomeController {
 
