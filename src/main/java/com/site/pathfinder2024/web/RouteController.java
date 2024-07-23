@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
+/**
+ * sa
+ */
+
+
 @Controller
-public class RouteController {
+public class  {
 
 
     private final RouteService routeService;
@@ -17,6 +22,12 @@ public class RouteController {
     public RouteController(RouteService routeService) {
         this.routeService = routeService;
     }
+
+    /**
+     * Method to handle listi
+
+     * @return the list route view
+     */
 
     @GetMapping("/routes")
     public String routes(Model model) {
