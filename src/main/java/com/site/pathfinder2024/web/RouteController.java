@@ -14,7 +14,7 @@ import java.util.List;
 
 
 @Controller
-public class  {
+public class  RouteController{
 
 
     private final RouteService routeService;
